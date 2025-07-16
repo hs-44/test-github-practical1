@@ -8,7 +8,7 @@ resource "aws_vpc" "terraform_test_vpc" {
   enable_dns_support   = false
  
   tags = {
-    Name = "terraform_test_vpc"
+    Name = "terraform_test_vpc_1"
   }
 }
 resource "aws_internet_gateway" "terraform_test_internet_gateway" {
